@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Page </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"></script> -->
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <!-- <div id="login">
+        <h1>LOGIN</h1>
+
+    </div>
+   
+    <div id="input_email">
+        <i class="fa-regular fa-envelope"></i>
+        <input type="text" placeholder="">
+            
+    </div>
+
+    <div id="input_password">
+        <input type="text" placeholder="   Enter your password">
+    </div>
+
+<button></button >
+    
+    <div>
+        Remember me
+    </div>
+
+
+    <button>  Login  </button>
+
+
+    <div>
+        or login with *
+    </div>
+
+
+    <button> 
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    </button>
+
+    <button>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+    </button>
+
+    <div>
+        not a mamber?<a href="#" target="_blank"> sign up now </a>
+    </div> -->
+
+    <div class="form">
+        <form id="form1">
+            <div class="boxinput">
+                <label>Name : </label>
+                <input type="name" placeholder="Enter your name">
+            </div>
+
+            <div class="boxinput">
+                <label>Email :</label>
+                <input type="email" placeholder="Enter your Email ">
+            </div>
+            <div class="boxinput">
+                <label>Phone : </label>
+                <input type="tel" name="" id="" placeholder="Enter your phone number">
+            </div>
+            <div class="boxinput">
+                <label>Gender : </label>
+                <label>
+                    <input type="radio" name="gender" value="male"> Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="other"> Other
+                </label>
+            </div>
+            <div class="boxinput">
+
+                <label>Password : </label>
+                <input type="password" placeholder="Enter your Password">
+
+            </div>
+
+
+            <button type="button" id="btn">Submit</button>
+        </form>
+    </div>
+    <script>
+        let btn = document.getElementById("btn");
+        btn.addEventListener('click', () => {
+            alert('form submited sucessfully ')
+        })
+    </script>
+</body>
+
+</html>

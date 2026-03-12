@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    background-image: url(image_1.jpg);
+}
+
+
+
+
+/* #login {
+    text-align: center;
+
+
+} */
+
+/* #input_email{
+    text-align: center;
+} */
+
+#input_password {
+    text-align: center;
+}
+
+#input_email {
+    position: relative;
+    width: 250px;
+}
+
+#input_email input {
+
+    width: 100%;
+    padding-left: 35px;
+    height: 35px;
+}
+
+#icon {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+#form1 {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.boxinput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 120px;
+}
+
+.form {
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 30px;
+    margin-top: 200px;
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(100px);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
